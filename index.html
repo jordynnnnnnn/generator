@@ -4,13 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/styling.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>🥪 Recipe Generator 🥪</title>
   </head>
   <body>
     <div class="container">
       <h1>Welcome to Jordyn's Recipe Generator</h1>
 
-      <form>
+      <form id="recipe-generator-form">
         <input
           type="text"
           placeholder="Enter a main ingredient..."
@@ -19,7 +20,7 @@
         />
         <input type="submit" class="submit-button" />
       </form>
-      <div class="recipe">recipe information</div>
+      <div class="recipe" id="recipe"></div>
 
       <footer>
         🥨 This AI project was coded by
