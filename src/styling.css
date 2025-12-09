@@ -50,6 +50,11 @@ form {
   padding: 14px 24px;
 }
 
+.submit-button:hover {
+  background-color: #f5a458;
+  color: #efefef;
+}
+
 .recipe {
   font-size: 16px;
   background-color: white;
