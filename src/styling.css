@@ -1,10 +1,10 @@
 body {
-  background-color: #f2decb;
+  background-color: #f7ddc5;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 a {
-  color: #272004;
+  color: #f5a458;
 }
 
 .container {
@@ -53,6 +53,7 @@ form {
 .recipe {
   font-size: 16px;
   background-color: white;
+  color: #f5a458;
   padding: 20px;
   line-height: 2;
   line-height: 24px;
