@@ -16,6 +16,10 @@ function generateRecipe(event) {
     "You are a world class chef that creates easy to follow recipes. You provide clear instructions and a concise list of ingredients. All ingredients are in list format with <br /> tags between each item. The instructions are in numbered format with <br /> tags between each step. Please have ingredients headline and instructions headline within <h4> tags. Please add a title to the recipe at the top within <h2> tags.";
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
+  let recipeElement = document.querySelector("#recipe");
+  recipeElement.classList.remove("hidden");
+  recipeElement.innerHTML = `<div class="blink">🧑🏻‍🍳 Cooking your recipe for ${instructionInput.value}...</div>`;
+
   axios.get(apiUrl).then(displayRecipe);
 }
 
