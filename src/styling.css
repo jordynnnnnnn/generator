@@ -1,5 +1,8 @@
 body {
-  background-color: #f7ddc5;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/176/581/original/dark-wood-right.jpg?1765763321");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
@@ -21,10 +24,15 @@ h1 {
   font-weight: 800;
   font-size: 36px;
   line-height: 1.5;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 10px;
+  border-radius: 10px;
+  color: #f5a458;
 }
 
 .form-container {
   background-color: white;
+  background-color: rgba(255, 255, 255, 0.9);
   margin-bottom: 30px;
   border-radius: 10px;
   padding: 15px 20px;
@@ -68,11 +76,13 @@ form {
 .recipe {
   font-size: 16px;
   background-color: white;
+  background-color: rgba(255, 255, 255, 0.9);
   color: #f5a458;
   padding: 20px;
   line-height: 2;
   line-height: 24px;
   border-left: 3px solid;
+  border-radius: 10px;
 }
 
 .hidden {
@@ -83,6 +93,7 @@ footer {
   text-align: center;
   font-size: 13px;
   margin-top: 30px;
+  color: white;
 }
 
 .blink {
